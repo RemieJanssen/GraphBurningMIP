@@ -11,7 +11,7 @@ solver = pl.getSolver('GLPK_CMD')
 #    (4,3),
 #])
 
-graph = nx.gnp_random_graph(10, 0.5, directed=False)
+graph = nx.gnp_random_graph(20, 0.1, directed=False)
 
 no_of_nodes = graph.number_of_nodes()
 
